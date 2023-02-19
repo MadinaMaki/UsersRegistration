@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация пользователей</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="header">
+    <h1 class="title">Регистрация пользователей</h1>
+</header>
+<div id="main">
+    <h2 class="subtitle">
+        Пожалуйста, введите все Ваши данные
+    </h2>
+    <form id="userForm" action="" method="POST">
+        <label for="name">Имя:
+            <input type="text" name="name" id="name" required>
+        </label>
+
+        <label for="age">Возраст:
+            <input type="number" name="age" id="age" required>
+        </label>
+
+        <label for="birthCity">Город рождения:
+            <input type="text" name="birthCity" id="birthCity" required>
+        </label>
+
+        <label for="birthday">Дата рождения:
+            <input type="date" name="birthday" id="birthday" required>
+        </label>
+
+        <label for="favoriteColor">Любимый цвет:
+            <input type="color" name="favoriteColor" id="favoriteColor" required>
+        </label>
+        <input type="submit" class="button" value="Зарегистрироваться">
+    </form>
+</div>
+
+<script src="userRegistration.js"></script>
+</body>
+</html>
